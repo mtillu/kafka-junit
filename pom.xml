@@ -18,13 +18,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.charithe</groupId>
+    <groupId>com.github.mtillu</groupId>
     <artifactId>kafka-junit</artifactId>
-    <version>4.1.8-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>kafka-junit</name>
     <description>JUnit rule to spin-up a Kafka broker during tests</description>
-    <url>https://github.com/charithe/kafka-junit</url>
+    <url>https://github.com/mtillu/kafka-junit</url>
 
     <licenses>
         <license>
@@ -33,12 +33,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>charithe</id>
-            <name>Charith Ellawala</name>
-        </developer>
-    </developers>
+
 
     <prerequisites>
         <maven>3.0.4</maven>
@@ -55,8 +50,8 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/charithe/kafka-junit.git</developerConnection>
-        <url>https://github.com/charithe/kafka-junit</url>
+        <developerConnection>scm:git:ssh://git@github.com/mtillu/kafka-junit.git</developerConnection>
+        <url>https://github.com/mtillu/kafka-junit</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -263,7 +258,7 @@
                     <checkinComment>Publishing javadoc for ${project.artifactId}:${project.version}</checkinComment>
                     <content>${project.build.directory}/apidocs</content>
                     <skipDeletedFiles>true</skipDeletedFiles>
-                    <pubScmUrl>scm:git:ssh://git@github.com/charithe/kafka-junit.git</pubScmUrl>
+                    <pubScmUrl>scm:git:ssh://git@github.com/mtillu/kafka-junit.git</pubScmUrl>
                     <scmBranch>gh-pages</scmBranch>
                 </configuration>
             </plugin>
